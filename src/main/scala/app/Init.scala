@@ -26,6 +26,8 @@ class Init (val name: String) {
     "s3a://quipper-datalake-dev/silver/mflix/writers/"
   val mflix_movies_movies_fact_s3_path =
     "s3a://quipper-datalake-dev/silver/mflix/movies_fact/"
+  
+  val airbnb_listing_reviews_datas_s3_path = "s3a://quipper-datalake-dev/bronze/sample_airbnb/listingsAndReviews/LOAD00000001.parquet"
 
   val mflix_movie_genres_tb_location = "mflix.tb_genres"
   val mflix_movie_cast_tb_location = "mflix.tb_cast"
